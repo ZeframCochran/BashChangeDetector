@@ -1,0 +1,636 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>Inbox | WyzAnt Mail</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="Stylesheet" type="text/css" href="/Less/GlobalImports.less?v=57" />
+
+	
+	<link rel="stylesheet" type="text/css" href="/less/mvccommon.less" />
+	<link rel="shortcut icon" href="/images/wyzant.ico" />
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+	
+	
+	
+
+	
+	
+
+
+	<link rel="stylesheet" href="/less/pages/mail.less?v=2" />
+
+
+	<!--[if lte IE 7]>
+		<link rel="Stylesheet" type="text/css" href="/less/foundation/foundation.ie.less" />
+		<link rel="Stylesheet" type="text/css" href="/less/ie7.less" />
+	<![endif]-->
+
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/ui-lightness/jquery-ui.css" />
+
+	<script>
+    window.analytics = window.analytics || [], window.analytics.methods = ["identify", "group", "track", "page", "pageview", "alias", "ready", "on", "once", "off", "trackLink", "trackForm", "trackClick", "trackSubmit"], window.analytics.factory = function (t) { return function () { var a = Array.prototype.slice.call(arguments); return a.unshift(t), window.analytics.push(a), window.analytics } }; for (var i = 0; i < window.analytics.methods.length; i++) { var key = window.analytics.methods[i]; window.analytics[key] = window.analytics.factory(key) } window.analytics.load = function (t) { if (!document.getElementById("analytics-js")) { var a = document.createElement("script"); a.type = "text/javascript", a.id = "analytics-js", a.async = !0, a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "cdn.segment.io/analytics.js/v1/" + t + "/analytics.min.js"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(a, n) } }, window.analytics.SNIPPET_VERSION = "2.0.9",
+	window.analytics.load('qurb33huvv');
+
+		window.analytics.identify("85476742");
+
+        window.analytics.page({}, { anonymousId: "72330677" });
+</script>
+
+	
+	<script>
+		var dataLayer = window.dataLayer || [];
+				dataLayer.push({ userId: 85476742 });
+
+	</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	
+
+<script>
+	/* See http://developers.optimizely.com/javascript/#custom-tag-10 */
+	window['optimizely'] = window['optimizely'] || [];
+	window['optimizely'].push(["customTag", {
+		UserType: "Tutor"
+		}]);
+</script>
+
+<script src="/scripts/WyzAntJS/wyzant.optimizely.js"></script>
+<script src="//cdn.optimizely.com/js/62138893.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+	<script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
+	<script src="//api.wyzant.com/Scripts/wyzant.logging.min.js"></script>
+
+	<!--[if lte IE 9]>
+		<script src="/scripts/libraries/jquery.textarea-maxlength.min.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript" src="/combiner.ashx?v=49&d=/scripts/jquery.wyzismobile.js,/scripts/jquery.hoveractive-0.0.1.js,/scripts/wyzantjs/wyzant.js,/scripts/modernizr.custom.70700.js"></script>
+
+	<script type="text/javascript" src="/combiner.ashx?v=49&d=/scripts/jquery.form.js,/scripts/jquery.history.js,/scripts/jquery.scrollto-1.4.2-min.js,/scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/scripts/tiny_mce/tinymce.jquery.min.js"></script>
+
+
+
+
+		<script type="text/javascript">
+		$(function () {
+			window.wyzant.logging.init('api.wyzant.com',
+				'WWW05',
+				'jerod.ewert',
+				'WyzAntMain_JS');
+		});
+	</script>
+</head>
+<body class="desktop">
+	<div id="fb-root"></div>
+
+	<div id="aspnetForm">
+
+
+
+
+
+
+
+		<script type="text/javascript" src="/combiner.ashx?v=49&d=/scripts/jquery.aspajax-0.0.1.js"></script>
+
+		
+
+
+	<div id="SiteMaster_SiteHeader" class="clearfix standardHeader">
+			<div class="globalNav">
+		<div class="row">
+				<div class="globalNavToggle">
+							<a href="/" class="current">TUTORING</a>
+		<a href="/resources" >RESOURCES</a>
+
+				</div>
+
+			<ul class="globalNavMain reset">
+					<li class="phone">(877) 999-2681</li>
+				<li class="hide medium-show-inline-block">
+					
+
+
+		<a href="/Tutor/" class="username">jerod.ewert</a>
+	<a href="/logout" class="loginout logOut">Sign Out</a>
+
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="logoBar" class="row">
+		<div id="LogoContainer" class="column large-4 small-7">
+			<a href="/" title="Tutors, Tutoring Services, and Homework Help">
+					<img src="/images/wyzant-logo-one_line-white.png" alt="Tutors, Tutoring Services, and Homework Help" />
+			</a>
+		</div>
+		<div id="searchContainer" class="column large-8 small-5">
+			<div class="large-hide">
+				<a id="mainMenuLink" title="Toggle Menu" class="mobileAction mainMenuTrg medium-hide" data-expandTarget="#SiteMaster_SiteNav .toggle"><span class="hide medium-show-inline-block">MENU</span></a>
+			</div>
+		</div>
+	</div>
+
+	</div>
+
+
+
+
+<div class="contentSubjectSearch subjectSearch large-hide animated" id="mobileSubjectSearch">
+	<fieldset>
+		
+
+		<div class="row">
+			<div class="fieldSpan">
+				<label for="txtMobileSubjectSearch">Subject</label>
+				<input type="text" id="txtMobileSubjectSearch" size="33" name="mobileSubjectSearch" class="wyzAC safeEnterControl SubjectTB" data-wyzac-searchtype="SubjectSearch" />
+			</div>
+
+			<div class="fieldSpan">
+				<label for="txtMobileZipSearch" class="ZipLbl">Zip</label>
+				<input type="tel" id="txtMobileZipSearch" name="MobileZipSearch" maxlength="5" size="5" value="95819" class="ZipTB" />
+			</div>
+		</div>
+		<div class="row">
+			<a class="btn doSubjectSearch" href="/tutorsearch" id="btnMobileSearch">Search for tutors</a>
+		</div>
+	</fieldset>
+</div>
+
+
+
+
+
+
+<div id="SiteMaster_SiteNav" class="textAdjustmentNone siteNav standardNav">
+	<div class="row">
+			<ul id="NavTutor" class="navTop toggle small-accordion">
+				<li class="signIn medium-hide MainNavButton">
+
+
+		<a href="/Tutor/" class="username">jerod.ewert</a>
+	<a href="/logout" class="loginout logOut">Sign Out</a>
+ <div class="clearBoth"></div></li>
+				<li class="MainNavButton dropdown-trg hoverable has-subnav">
+					<span class="medium-hide accordion-trg">Tutor Profile</span>
+					<a class="hide medium-show dropdown-label" href="/Tutor/">Tutor Profile</a>
+					<ul class="SubNav">
+						<li class="medium-hide"><a href="/Tutor/">Tutor Profile</a></li>                        
+						<li><a href="/Tutor/Subjects/">Subjects</a></li>
+						<li><a href="/Tutor/FreeResponse.aspx">Free Response & Title</a></li>
+						<li><a href="/Tutor/RateAndPolicies.aspx">Rate & Policies</a></li>
+						<li><a href="/Tutor/Pictures/">Photos</a></li>
+						<li><a href="/Tutor/Blog.aspx">Blog</a></li>
+						<li><a href="/Tutor/Videos/">Videos</a></li>
+						<li><a href="/Tutor/Answers.aspx">Answers</a></li>
+						<li><a href="/Tutor/Forums.aspx">Forums</a></li>
+						<li><a href="/Tutor/Profile/Education">Education</a></li>
+						<li><a href="/Tutors/CA/Sacramento/8706236/">Public Profile</a></li>
+						<li><a href="/Tips">Tips to Succeed</a></li>
+					</ul>
+				</li>
+				<li class="has-subnav dropdown-trg hoverable MainNavButton">
+					<span class="medium-hide accordion-trg">Students &amp; Lessons</span>
+					<a href="/Tutor/StudentsAndLessons.aspx" class="hide medium-show dropdown-label">Students &amp; Lessons</a>
+					<ul class="SubNav">
+						<li class="medium-hide"><a href="/Tutor/StudentsAndLessons.aspx">Students &amp; Lessons</a></li>
+						<li><a href="/Tutor/Mail">Mail</a></li>
+                        <li><a href="/App">iPhone App</a></li>
+						<li><a href="/Tutor/Students/Index">Student Connections</a></li>
+						<li><a href="/Tutor/Lessons/Submit.aspx">Submit Completed Lesson</a></li>
+						<li><a href="/Tutor/Lessons/Cancelation.aspx">Assess Cancellation Fee</a></li>
+						<li><a href="/Tutor/Lessons/">Lessons</a></li>
+						<li><a href="/Tutor/Payments/">Payments</a></li>
+							<li><a href="/Tutor/Calendar">Calendar</a></li>
+						<li><a href="/Tutor/Students/Feedback.aspx">Feedback</a></li>
+						<li><a href="/Tutor/Statistics/">Statistics</a></li>
+					</ul>
+				</li>
+				<li class="has-subnav dropdown-trg hoverable MainNavButton">
+					<span class="medium-hide accordion-trg">Advertise</span>
+					<a href="/Tutor/Advertise.aspx" class="hide medium-show dropdown-label">Advertise</a>
+					<ul class="SubNav">
+						<li class="medium-hide"><a href="/Tutor/Advertise.aspx">Advertise</a></li>
+						<li><a href="/WyzAntRewards/">WyzAnt Rewards</a></li>
+                        <li><a href="/Tutor/InviteTutors">Earn More Rewards</a></li>
+						<li><a href="/InviteFriends/">Invite Friends</a></li>
+						<li><a href="/Tutor/MarketingMaterials.aspx">Marketing Materials</a></li>
+						<li><a href="/Tutor/Settings/CustomUrl.aspx">Custom URL</a></li>
+					</ul>
+				</li>
+				<li class="has-subnav dropdown-trg hoverable MainNavButton">
+					<span class="medium-hide accordion-trg">Account Settings</span>
+					<a href="/Tutor/Settings/" class="hide medium-show dropdown-label">Account Settings</a>
+					<ul class="SubNav">
+						<li class="medium-hide"><a href="/Tutor/Settings/">Account Settings</a></li>
+						<li><a href="/Tutor/Settings/Status.aspx">Profile Status</a></li>
+						<li><a href="/ChangePassword.aspx">Change Password</a></li>
+						<li><a href="/Tutor/Settings/BasicInfo.aspx">Basic Information</a></li>
+						<li><a href="/Tutor/Settings/NotificationOptions">Notification Options</a></li>
+						<li><a href="/Tutor/Payments/Method.aspx">Payment Method</a></li>
+						<li><a href="/Tutor/BC/Info.aspx">Background Check</a></li>
+					</ul>
+				</li>
+				<li class="has-subnav dropdown-trg hoverable MainNavButton">
+					<span class="medium-hide accordion-trg">Tutoring Jobs</span>
+					<a href="/Tutor/Jobs" class="hide medium-show dropdown-label">Tutoring Jobs</a>
+					<ul class="SubNav">
+						<li class="medium-hide"><a href="/Tutor/Jobs">Tutoring Jobs</a></li>
+						<li><a href="/Tutor/Jobs">View Jobs</a></li>
+						<li><a href="/Tutor/JobApplicationHistory.aspx">Submitted Applications</a></li>
+						<li><a href="/Tutor/Students/Feeds.aspx">RSS Feeds</a></li>
+					</ul>
+				</li>
+				<li class="has-subnav dropdown-trg hoverable MainNavButton">
+					<span class="medium-hide accordion-trg">Resources</span>
+					<a href="/resources" class="hide medium-show dropdown-label">Resources</a>
+					<ul class="SubNav">
+						<li class="medium-hide"><a href="/resources">Resources</a></li>
+						<li><a href="/resources/Answers">Answers</a></li>
+						<li><a href="/resources/blogs">Blogs</a></li>
+						<li><a href="/resources/files">Files</a></li>
+						<li><a href="/resources/forums">Forums</a></li>
+						<li><a href="/resources/video">Videos</a></li>
+					</ul>
+				</li>
+				<li class="has-subnav dropdown-trg hoverable MainNavButton">
+					<span class="medium-hide accordion-trg">Help</span>
+					<a href="/SiteHelp/Tutor" class="hide medium-show dropdown-label">Help</a>
+					<ul class="SubNav">
+						<li class="medium-hide"><a href="/SiteHelp/Tutor">Help</a></li>
+						<li><a href="/SiteHelp/Tutor">FAQs</a></li>
+						<li><a href="/SiteHelp/Agreement">ITA</a></li>
+						<li><a href="/SiteHelp/PaymentPolicies">Payment Policies</a></li>
+						<li><a href="http://feedback.wyzant.com/?sso=CMiPwyVWtv8PK%2fCmmAm5P5JuvTfhBnS2eOfL1UCjdebA5RFwC77G2q%2fjyzsi6Ap7dIsYY6FmJAiMviK7vYagJkhaHTtNJkFeVOA0HLFtR%2fma0ulvh15p8gATVQJ1yqVA">Feedback</a></li>
+					</ul>
+				</li>
+			</ul>
+	</div>
+</div>		
+		<div class="center spc-med-s">
+			
+	<div class="responsive-banner">
+		<a class="byos-04" href="/tutor/rewardsrateinvitation"></a>
+	</div>
+	<script>
+		$(function() {
+			$(".responsive-banner a").click(function() {
+				wyzant.gaEvent.record("BYOS Invite", "Banner click", "byos-04");
+			});
+		});
+	</script>
+
+		</div>
+
+			<div id="SiteMaster_PageMainContent">
+				<div class="Centered960">
+					<div id="OneColumn" class="">
+
+
+<div id="MailLeft">
+	<h1>
+		<a href="/Tutor/mail">
+			<img src="/graphics/pages/tutor/icons/envelope25.png" />
+			WyzAnt mail
+		</a>
+	</h1>
+
+	<div id="MenuToggle" class="mobExp medium-hide mobMin">
+		<div class="blueHeader mobExpHdr">
+			<h3 class="mobExpIco">Menu</h3>
+		</div>
+	</div>
+
+
+
+	<div id="MailMenu">
+		<hr />
+		<ul class="folders">
+			<li><a class="ajaxHLink compose icon icon-edit emailUseTracking" href="/Tutor/mail/compose" id="composeMessageFromLeftNav">Compose</a></li>
+			<li><a class="current ajaxHLink inbox" href="/Tutor/mail?f=inbox">Inbox</a></li>
+			<li><a class="ajaxHLink sent" href="/Tutor/mail?f=sent">Sent</a></li>
+			<li><a class="ajaxHLink draft" href="/Tutor/mail?d=True">Drafts</a></li>
+			<li><a class="ajaxHLink starred" href="/Tutor/mail?t=starred">Starred</a></li>
+				<li class="showHiddenLis"><a href="#">More&hellip;</a></li>
+			<li class="displayNone"><a class="ajaxHLink archive" href="/Tutor/mail?f=archive">Archived</a></li>
+			<li class="displayNone"><a class="ajaxHLink spam" href="/Tutor/mail?f=spam">Spam</a></li>
+			<li class="displayNone"><a class="ajaxHLink unread" href="/Tutor/mail?r=unread">Unread</a></li>
+			<li class="displayNone"><a class="ajaxHLink all" href="/Tutor/mail?cf=all">All mail</a></li>
+		</ul>
+		<hr />
+		
+
+    <div class="ajaxForm" data-wyz-form-target="#AddressBookSearchResults" data-wyz-replace-target="false" data-wyz-no-input-disable="true">
+<form action="/Tutor/AddressBook" autocomplete="off" method="post">            <h4>Search students</h4>
+            <div>
+                <input type="search" title="Type to search for a student" placeholder="Type a student name..." autocomplete="off"  name="q" id="AddressBookSearch" />
+        
+                <input type="submit" value="go" class="displayNone" />
+     
+            </div>
+            <div id="AddressBookSearchResults" class="addressBookUsers"></div>
+</form>
+    </div>
+    <hr />
+    <div class="ajaxForm" data-wyz-form-target="#AddressBookUsers" data-wyz-replace-target="false" data-wyz-no-input-disable="true">
+<form action="/Tutor/AddressBook" method="post">            <h4>Browse students</h4>
+            <div>
+                <select name="filter" id="AddressBookFilter">
+
+                        <option value="Recent" selected="selected">Recent contacts</option>
+                        <option value="Lessons" >Recent lessons</option>
+                        <option value="Payment" >Payment information</option>
+                        <option value="All" >All active</option>
+                </select>
+        
+                <input type="submit" value="go" class="displayNone" />
+  
+            </div>
+            <div id="AddressBookUsers" class="addressBookUsers"></div>
+</form>
+    </div>
+
+		<hr />
+		<div class="menuActions">
+			<a href="/tutor/students/">Manage students</a>
+			<a class="ajaxHLink hide medium-show" href="/Tutor/Mail/templates">Manage templates</a>
+			<a href="/Tutor/JobApplicationHistory.aspx">My job applications</a>
+		</div>
+		
+	</div>
+	<div class="hide medium-show">
+		
+	<p>
+		<img style="display: block; margin-left: auto; margin-right:auto; border:solid 1px #d3c1c1;" src="/images/adrotator/info_writing_white.png" alt="Tips to Succeed" />
+	</p>
+
+	</div>
+</div>
+<div id="MailMain">
+	<div id="MailBody" class="ajaxTarget">
+		
+
+
+
+
+<table id="MailBodyTop" class="messagesTop blockTable">
+  <tr>
+	  <td class="tdBulk">
+   
+	  </td>
+	  <td class="tdTitle">
+	<h2 class="medium-hide">
+Inbox								
+	   </h2>
+	  </td>
+	  <td class="tdSearch">
+
+		    <span class="pager"><span class="prev">prev</span>&nbsp;<span class="next">next</span></span>
+
+
+
+
+	  
+<form action="/Tutor/mail" id="MailSearchBox" method="get"><input id="F" name="F" type="hidden" value="Inbox" /><input id="S" name="S" type="hidden" value="False" /><input id="T" name="T" type="hidden" value="" /><input id="U" name="U" type="hidden" value="" /><input id="KW" name="KW" placeholder="Search Inbox…" type="text" value="" />		<input type="submit" class="btn" value="Search" />  
+</form>
+	  </td>
+
+
+  </tr>
+
+</table>
+<div id="MailBodyMain">
+	<div>
+		<table class="infoTable selectable messages blockTable">
+				<tr>
+					<td class="center">
+						<i>
+							Nothing to see here!
+						</i>
+					</td>
+				</tr>
+
+		</table>
+</div></div>
+
+
+	</div>
+	<div class="medium-hide">
+		
+	<p>
+		<img style="display: block; margin-left: auto; margin-right:auto; border:solid 1px #d3c1c1;" src="/images/adrotator/info_writing_white.png" alt="Tips to Succeed" />
+	</p>
+
+	</div>
+</div>
+<div class="clearBoth"></div>
+<div class="displayNone">
+	<div id="LockModal">
+		<div class="ModalClear">
+			<h3>Message is locked</h3>
+			<p>
+				There are two possible reasons why the message is locked. First, the student may have entered incorrect or incomplete information when signing up. Second, we may have placed a temporary hold on correspondence between you and a particular student while we try to resolve a dispute. In both cases, we will attempt to address the situation and put you in contact with the student.
+			</p>
+		</div>
+	</div>
+	<div id="LockModalNI">
+		<div class="ModalClear">
+			<h3>Student not interested</h3>
+			<p>
+				This student has decided to go in another direction and would not like to receive additional emails at this time. Thanks for offering to help and please be on the lookout for other opportunities in your area!
+			</p>
+		</div>
+	</div>
+	<div id="NoPaymentModal">
+		<div class="ModalClear">
+			<h3>Student has no payment information</h3>
+			<p>
+				Please remember that personal email addresses or websites should not be shared in the email or in any attachments. Once the student has submitted payment information, you are welcome to include your phone number in the email message.
+			</p>
+		</div>
+	</div>
+	<div id="HasPaymentModal">
+		<div class="ModalClear">
+			<h3>Student has payment information</h3>
+			<p>
+				Feel free to exchange phone numbers and schedule lessons. Please continue to use your WyzAnt account for all email correspondence.
+			</p>
+		</div>
+	</div>
+
+</div>
+<div id="UsrTooltips"></div>
+
+
+
+
+
+
+					</div>
+				</div>
+			</div>
+		
+	<div id="SiteMaster_PageFooter">			<div class="row">
+				<div class="large-4 large-push-8 medium-4 medium-push-8 columns small-12">
+ 
+					    <div class="helpBox">
+						    <h3>Need help finding a tutor?</h3>
+						    <h4 class="icon phone">Call us (877) 999-2681</h4>
+                            <a class="btn" href="/EmailTutor">Request a tutor</a>
+					    </div>
+					<div class="BBBVLogos hide medium-show">
+						<a href="http://www.bbb.org/chicago/business-reviews/tutoring/wyzantcom-in-chicago-il-88349022#bbblogo" title="WyzAnt Tutoring, Chicago, IL" target="_blank"><img src="/Graphics/Layout/bbb-logo-tutoring.png" class="bbbLogo"></a>
+						<a onclick="window.open('https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&dn=www.wyzant.com&lang=en','mywindow','menubar=1, scrollbars=yes, width=550,height=450');return false;" href="#" rel="nofollow"><img src="/Graphics/Layout/verisign-logo-tutoring.png" class="verisignLogo"></a>
+					</div>
+				</div>
+				<div class="large-8 large-pull-4 medium-8 medium-pull-4 columns small-12">
+				    <ul class="small-accordion topFooterLinks footerLinks row">
+					    <li class="has-subnav large-3 column medium-4">
+						    <h5 class="accordion-trg">Get to know us</h5>
+						    <ul class="SubNav">
+							    <li><a href="/About/">About Us</a></li>
+							    <li><a href="/StudentWyzAntReviews.aspx">Reviews &amp; Testimonials</a></li>
+							    <li><a href="/SafetyTips/TutorHiringSafetyTips">Safety</a></li>
+							    <li><a href="/Security.aspx">Security</a></li>
+							    <li><a href="/News">News</a></li>
+							    <li><a href="/ContactUs">Contact Us</a></li>
+							    <li><a href="https://www.zazzle.com/wyzant" target="_blank">WyzAnt Store</a></li>
+						    </ul>
+					    </li>
+					    <li class="has-subnav large-3 column medium-4">
+						    <h5 class="accordion-trg">Learn with us</h5>
+						    <ul class="SubNav">
+							    <li><a href="/tutorsearch">Search for a Tutor</a></li>
+							    <li><a href="/EmailTutor">Request a Tutor</a></li>
+							    <li><a href="/resources/lessons/math">Math Help</a></li>
+							    <li><a href="/Resources/">WyzAnt Resources</a></li>
+							    <li><a href="/scholarships/">WyzAnt Scholarships</a></li>
+							    <li><a href="/tutors/online">Online Tutoring</a></li>
+						    </ul>
+					    </li>
+					    <li class="has-subnav large-3 column medium-4">
+						    <h5 class="accordion-trg">Work with us</h5>
+						    <ul class="SubNav">
+							    <li><a href="/TutorHome.aspx">About Tutoring with Us</a></li>
+							    <li><a href="/tutorsignupstart">Become a Tutor</a></li>
+							    <li><a href="/JobSearch.aspx">Tutoring Jobs</a></li>
+							    <li><a href="/Partners/">Partners</a></li>
+							    <li><a href="/AffiliateProgram/">Affiliates</a></li>
+							    <li><a href="/About/Careers.aspx">Careers</a></li>
+						    </ul>
+					    </li>
+					    <li class="has-subnav large-3 column medium-12">
+						    <h5 class="accordion-trg">Connect with us</h5>
+						    <ul class="SubNav graphicLinks">
+							    <li class="large-12 medium-3 column"><a title="WyzAnt on Facebook" target="_blank" href="http://www.facebook.com/WyzAnt" class="icon facebook">Facebook</a> </li>
+							    <li class="large-12 medium-3 column"><a title="WyzAnt on Twitter" target="_blank" href="http://www.twitter.com/WyzAnt" class="icon twitter">Twitter</a></li>
+							    <li class="large-12 medium-3 column"><a title="WyzAnt on LinkedIn" target="_blank" href="http://www.linkedin.com/company/wyzant-tutoring" class="icon linkedIn">LinkedIn</a></li>
+							    <li class="large-12 medium-3 column"><a title="WyzAnt on YouTube" target="_blank" href="http://www.youtube.com/wyzanttutoring" class="icon youtube">YouTube</a></li>
+						    </ul>
+					    </li>
+				    </ul>
+				</div>
+			</div>
+	   <div class="row hide medium-show">
+            <div class="large-6 medium-8 columns footerLinks left">
+                <ul class="row">
+                    <li class="column"><h5>Tutors by location</h5></li>
+                </ul>
+                <ul class="row">
+					<li class="large-4 medium-4 column">
+                        <a title="Atlanta Tutoring" href="/Atlanta_tutors.aspx">Atlanta Tutors</a>
+                        <a title="Boston Tutoring" href="/Boston_tutors.aspx">Boston Tutors</a>
+                        <a title="Brooklyn Tutoring" href="/Brooklyn_NY_tutors.aspx">Brooklyn Tutors</a>
+                        <a title="Chicago Tutoring" href="/Chicago_tutors.aspx">Chicago Tutors</a>
+                        <a title="Dallas Tutoring" href="/Dallas_tutors.aspx">Dallas Tutors</a>
+                        <a title="Denver Tutoring" href="/Denver_tutors.aspx">Denver Tutors</a>
+                    </li>
+
+					<li class="large-4 medium-4 column">
+                        <a title="Detroit Tutoring" href="/Detroit_MI_tutors.aspx">Detroit Tutors</a>
+                        <a title="Houston Tutoring" href="/Houston_tutors.aspx">Houston Tutors</a>
+                        <a title="Los Angeles Tutoring" href="/Los_Angeles_tutors.aspx">Los Angeles Tutors</a>
+                        <a title="Miami Tutoring" href="/Miami_tutors.aspx">Miami Tutors</a>
+                        <a title="New York Tutoring" href="/New_York_City_tutors.aspx">New York City Tutors</a>
+                        <a title="Orange County Tutoring" href="/Orange_County_CA_tutors.aspx">Orange County Tutors</a>
+                    </li>
+
+					<li class="large-4 medium-4 column">
+                        <a title="Philadelphia Tutoring" href="/Philadelphia_tutors.aspx">Philadelphia Tutors</a>
+                        <a title="Phoenix Tutoring" href="/Phoenix_tutors.aspx">Phoenix Tutors</a>
+                        <a title="San Francisco Tutoring" href="/San_Francisco_tutors.aspx">San Francisco Tutors</a>
+                        <a title="Seattle Tutoring" href="/Seattle_tutors.aspx">Seattle Tutors</a>
+                        <a title="San Diego Tutoring" href="/San_Diego_tutors.aspx">San Diego Tutors</a>
+                        <a title="Washington, DC Tutoring" href="/Washington_DC_tutors.aspx">Washington, DC Tutors</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="large-6 medium-8 columns footerLinks left">
+                <ul class="row">
+                    <li class="column"><h5>Tutors by Subject</h5></li>
+                </ul>
+                <ul class="row">
+                    <li class="large-4 medium-4 column">
+						<a title="Algebra Tutoring" href="/algebra_tutors.aspx">Algebra Tutors</a>
+                        <a title="Calculus Tutoring" href="/calculus_tutors.aspx">Calculus Tutors</a>
+                        <a title="Chemistry Tutoring" href="/chemistry_tutors.aspx">Chemistry Tutors</a>
+                        <a title="Computer Lessons" href="/computer_lessons.aspx">Computer Lessons</a>
+                        <a title="Elementary Education Tutoring" href="/elementary_education_tutors.aspx">Elementary Tutors</a>
+                        <a title="English Tutoring" href="/English_tutors.aspx">English Tutors</a>
+                    </li>
+                    <li class="large-4 medium-4 column">
+                        <a title="Geometry Tutoring" href="/geometry_tutors.aspx">Geometry Tutors</a>
+                        <a title="Language Tutoring" href="/language_tutors.aspx">Language Tutors</a>
+                        <a title="Math Tutoring" href="/math_tutors.aspx">Math Tutors</a>
+                        <a title="Music Lessons" href="/music_tutors.aspx">Music Lessons</a>
+                        <a title="Physics Tutoring" href="/physics_tutors.aspx">Physics Tutors</a>
+                        <a title="Reading Tutoring" href="/reading_tutors.aspx">Reading Tutors</a>
+                    </li>
+                    <li class="large-4 medium-4 column">
+                        <a title="SAT Tutoring" href="/SAT_tutors.aspx">SAT Tutors</a>
+                        <a title="Science Tutoring" href="/science_tutors.aspx">Science Tutors</a>
+                        <a title="Spanish Tutoring" href="/Spanish_tutors.aspx">Spanish Tutors</a>
+                        <a title="Statistics Tutoring" href="/Statistics_tutors.aspx">Statistics Tutors</a>
+                        <a title="Test Preparation Tutoring" href="/test_preparation_tutors.aspx">Test Prep Tutors</a>
+                        <a title="Writing Tutoring" href="/writing_tutors.aspx">Writing Tutors</a>
+                    </li>
+                </ul>
+            </div>
+	   </div>
+			<div class="BBBVLogos medium-hide">
+			    <a href="http://www.bbb.org/chicago/business-reviews/tutoring/wyzantcom-in-chicago-il-88349022#bbblogo" title="WyzAnt Tutoring, Chicago, IL" target="_blank"><img src="/Graphics/Layout/bbb-logo-tutoring.png" class="bbbLogo"></a>
+			    <a onclick="window.open('https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&dn=www.wyzant.com&lang=en','mywindow','menubar=1, scrollbars=yes, width=550,height=450');return false;" href="#" rel="nofollow"><img src="/Graphics/Layout/verisign-logo-tutoring.png" class="verisignLogo"></a>
+			</div>
+			<div class="clearBoth"></div>
+		<div class="row Copyright medium-text-left">
+			<div class="medium-7 columns TermsOfUse medium-push-5 medium-text-right">
+			    <a href="/TermsOfUse.aspx">Terms of Use</a> 
+				<a href="/PrivacyPolicy.aspx">Privacy Policy</a>
+				<a href="/Browse_All_tutors.aspx">Locations</a>
+		   </div>
+			<div class="medium-5 columns medium-pull-7">
+				&copy; 2005 - 2014 WyzAnt, Inc. - All Rights Reserved
+			</div>
+		</div>	
+</div>	
+
+
+
+
+
+
+	</div>
+
+	<script type="text/javascript" src="/combiner.ashx?v=49&d=/scripts/wyzantglobal.js,/scripts/wyzantjs/wyzant.utils.js,/scripts/libraries/jquery.wyzantexpander.js,/scripts/jquery-wyzachookups.js,/scripts/jquery.cookie.js,/scripts/facebook.js,/scripts/shared/collapseelement.js,/scripts/wyzantjs/wyzant.ajax.js,/scripts/wyzantjs/wyzant.ajax.modal.js,/scripts/wyzantjs/wyzant.gaevent.js"></script>
+
+	<script type="text/javascript" src="/combiner.ashx?v=49&d=/scripts/wyzantjs/wyzant.ajax.forms.js,/scripts/wyzantjs/wyzant.ajax.history.js,/scripts/wyzantjs/wyzant.tinymce.js,/scripts/mvc/mail.js,/scripts/mobileexpandpanel.js"></script>
+
+
+
+
+	
+</body>
+</html>

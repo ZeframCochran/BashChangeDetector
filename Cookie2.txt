@@ -1,0 +1,30 @@
+# Cookies for domains related to wyzant.com.
+# This content may be pasted into a cookies.txt file and used by wget
+# Example:  wget -x --load-cookies cookies.txt https://www.wyzant.com/Tutor/Mail
+#
+www.wyzant.com	FALSE	/	FALSE	1424088282.708772	.ASPXANONYMOUS	MNYRv-BJ0AEkAAAAM2RkMGFjNTctYzE4NC00NmM1LWI0NGUtYWFjOWIwNDY2MDJhWgJ01CBw2vom7i1Ln-3fCXZJ9ZE1
+www.wyzant.com	FALSE	/	FALSE	0	ASP.NET_SessionId	0ms1mf23orc1k4vzbxa21x3e
+www.wyzant.com	FALSE	/	FALSE	1481246682.708895	WyzAntRef	http://www.google.com/aclk?sa=l&ai=CBg4LVE-GVKqJDsS--QOe_IKgAtTAssoFzMinjtoBzMW4w1YIABABKANgyY74hsij_BqgAeDBuv0DyAEBqgQoT9Dgcx9JYZE1Og1CT9xOaH8mzZ_TZ-8qm4ff-VEbCtvtrKZOwOphRIAHiL7FAogHAZAHAqgHpr4b&sig=AOD64_0VtsNSwGzC-4DPOn1Zz-vJCwavZQ&rct=j&q=&ved=0CCMQ0Qw&adurl=http://www.wyzant.com/tutorsearch/awDesktop%3FurlName%3DComputer_Science%26g%3DGoogleAdWords%26awcamp%3DOpt-ComputerScience%26awag%3DTutors(BMM)%26awaceid%3D%26awcid%3D58573419964%26awim%3D%26awkw%3D%252Bcomputer%2520%252Bscience%2520%252Btutor%26awmt%3Db%26awn%3Dg%26awp%3D%26awt%3D
+www.wyzant.com	FALSE	/	FALSE	1481246682.708952	WyzAntGVal	GoogleAdWords
+www.wyzant.com	FALSE	/	FALSE	1481246682.709	landingUrl	http://www.wyzant.com/tutorsearch/awDesktop?urlName=Computer_Science&g=GoogleAdWords&awcamp=Opt-ComputerScience&awag=Tutors(BMM)&awaceid=&awcid=58573419964&awim=&awkw=%2Bcomputer%20%2Bscience%20%2Btutor&awmt=b&awn=g&awp=&awt=&gclid=Cj0KEQiAtZWkBRC9ibSfhoKEyLYBEiQA5fDxkTc8gEjbpfDYd5E098MZPtD2AJEVelgHdQtUA1i51q8aAsSh8P8HAQ
+www.wyzant.com	FALSE	/	FALSE	1481246682.709054	visitorID	6c69fd33-cc22-4663-9bab-52733823c00d
+.www.wyzant.com	TRUE	/	FALSE	0	WyzantWWWAffinity	ff4336e186f65af8e5abe470f7ca9c917fd798d8ba007765b2f0d25b7432348e
+.wyzant.com	TRUE	/	FALSE	1733448284	optimizelyEndUserId	oeu1418088284253r0.14495197008363903
+.wyzant.com	TRUE	/	FALSE	0	optimizelyReferrer	
+www.wyzant.com	FALSE	/	FALSE	1428465733	optimizely	2095010199%2C2226391888%2C2207890353%2C2210270518%2C2235343152
+www.wyzant.com	FALSE	/	FALSE	0	zip	95819
+www.wyzant.com	FALSE	/	FALSE	1426203345.79594	WyzAntFirstVisit	true
+.wyzant.com	TRUE	/	FALSE	1418705760	_cio	8a5ff5a2-26f6-41b3-94b0-390109d623fb
+www.wyzant.com	FALSE	/	FALSE	0	lv	12/15/2014 9:20:48 AM
+.wyzant.com	TRUE	/	FALSE	1418658735	_gat	1
+.wyzant.com	TRUE	/	FALSE	1418744538	_cioid	85476742
+.wyzant.com	TRUE	/	FALSE	1450194379	ajs_anonymous_id	%2272330677%22
+www.wyzant.com	FALSE	/	FALSE	1418745026.153716	WyzantCookie	9C03F8D95AC7C9FB00FEC214523145AB71F512664C771A9DDC4F18D3F28FC9ED2E1EFBF9E6A9AFF6D36AF679DCE30D6B4B5D2B86737A98E3022700F325BB316B3C37C2D9AA2AB9AD31DBA1D968DA17B95C15FC1C38AC54BEED506719D30E9C5BE1019F40BA0A54D1B6A9E7875267785CA724AC76CDE1C4EECBAFEC88DD8A256CE00871D6
+www.wyzant.com	FALSE	/	FALSE	0	userType	tutor
+www.wyzant.com	FALSE	/	TRUE	0	.WYZANTASPROLES	caBdKpEV0XULRj0cBf1kXB2l4ThUw9uv-ByX8Cl1W1lwPY7jCRFGFS4i9K2joh2auw_GLGFmPttfphdvToUnRqW3Qn1ycxeon-irzAIKFRedfYfONarhwh-VRo0m-keziPWJAaPIXUOowadvuhuKToHMMR4QKBB48UVs49Q78EoFKqM8kFSSOcLA4dHJ9tCLJoweGp905e1wBxh8k3yLCWCDRxZH4qQdNZKX-HnpPoxIZuP3SorC7gceuPlUphrGFiSKJJ-ppIUkTEaFMBCD7kEmMiiKmSzmFU8VOk5afZh9yFHGBtdEyh8wFxpAliD2elKfRlAFHQwshDskELkc5eHmacqj9JeE4wgou2F8-U081opMC9oFNFkBOAu_USPx2YYrT-X1Caur4Tn4JulGpo4mTJNUfG4sU9KGdq5EzBn1uayo2HA0nDgi1uVXg1XXUbTwYFZUONyrv8B0eChnMipy38QTmh10arlC9R2OvKBnn7Xx6CuW7EAjQI8-yP3qv4e_Xz3YCL6_USZbz2p2rEI6ofw1
+.wyzant.com	TRUE	/	FALSE	1450194649	ajs_user_id	%2285476742%22
+.wyzant.com	TRUE	/	FALSE	1450194649	ajs_group_id	null
+.wyzant.com	TRUE	/	FALSE	1481730650	_ga	GA1.2.1279331071.1418088285
+.wyzant.com	TRUE	/	FALSE	1734018650	optimizelySegments	%7B%22173837634%22%3A%22campaign%22%2C%22173876126%22%3A%22false%22%2C%22173896022%22%3A%22gc%22%7D
+.wyzant.com	TRUE	/	FALSE	1734018650	optimizelyBuckets	%7B%2296710543%22%3A%220%22%2C%222095010199%22%3A%222122410184%22%2C%222207890353%22%3A%222206230398%22%2C%222210270518%22%3A%222203591311%22%2C%222226391888%22%3A%222238391134%22%2C%222235343152%22%3A%222234351796%22%7D
+.wyzant.com	TRUE	/	FALSE	1418658666	optimizelyPendingLogEvents	%5B%5D
