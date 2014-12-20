@@ -11,31 +11,47 @@
 
 
 #List of pages and [optional] cookie files
-echo	$1 url
-echo	$2 css path
-echo	$3 cookie file
+url=$1
+cssPath=$2 
+cookieFile=$3
 
-./DownloadPage.sh  $1 $3 
+./DownloadPage.sh  $url $cookieFile
 
 
 filename=$(ls ./pageCache/)
 
 #Parse for the important String
+temp=$(./parseForString.sh pageCache/$filename "$cssPath")
+echo $temp > ./pageCache/$filename 
 
-s1=$(./parseForString.sh pageCache/$filename $2)
-
+#sed -e 's/^ *//' -e 's/ *$//'
+string1=$(cat pageCache/$filename)
 #Check for an archived instance.
 if [ -f "./pageArchive/"$filename ]
-	then
-		echo $filename exists
+then
+		echo $filename exists in archive, comparing..
+		string2=$(cat pageArchive/$filename)
+		if [[ "$string1" != "$string2" ]];
+		then
+				echo "string1('$string1') is not equal to string2('$string2')"
+				echo --------------------
+				echo "String 1 is ('$string1')"
+				echo "String 2 is ('$string2')"
+				echo --------------------
+				echo sending email with both strings..
+		else
+				echo "string1('$string1') is equal to string2('$string2')"
+				echo No action required.
+		fi
 	else
 		echo Copying important String from $filename to archive..
+		mv "./pageCache/"$filename "./pageArchive/"
 fi
 rm pageCache/*
-echo got important String $s1
+
+
 
 #	s2 = $(./parseForString $file2)
-#	"$1"="$2"
 #	if there is a diff (get get Files pageCache/Mail and pageCache/Mail.1 differ)
 #	Send email.
 
