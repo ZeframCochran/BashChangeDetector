@@ -23,9 +23,9 @@ filename=$(ls ./pageCache/)
 #Parse for the important String
 temp=$(./parseForString.sh pageCache/$filename "$cssPath")
 echo $temp > ./pageCache/$filename 
-
-#sed -e 's/^ *//' -e 's/ *$//'
 string1=$(cat pageCache/$filename)
+
+
 #Check for an archived instance.
 if [ -f "./pageArchive/"$filename ]
 then
@@ -39,19 +39,14 @@ then
 				echo "String 2 is ('$string2')"
 				echo --------------------
 				echo sending email with both strings..
+				./SendAlert.sh $1 $string2 $string1
+				mv "./pageCache/"$filename "./pageArchive/"
 		else
 				echo "string1('$string1') is equal to string2('$string2')"
 				echo No action required.
+				rm pageCache/*
 		fi
 	else
 		echo Copying important String from $filename to archive..
 		mv "./pageCache/"$filename "./pageArchive/"
 fi
-rm pageCache/*
-
-
-
-#	s2 = $(./parseForString $file2)
-#	if there is a diff (get get Files pageCache/Mail and pageCache/Mail.1 differ)
-#	Send email.
-
