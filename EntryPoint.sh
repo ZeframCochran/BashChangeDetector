@@ -33,16 +33,16 @@ then
 		string2=$(cat pageArchive/$filename)
 		if [[ "$string1" != "$string2" ]];
 		then
-				echo "string1('$string1') is not equal to string2('$string2')"
+				echo "Comparison: "
 				echo --------------------
-				echo "String 1 is ('$string1')"
-				echo "String 2 is ('$string2')"
+				echo "New String is ('$string1')"
+				echo "Old String is ('$string2')"
 				echo --------------------
 				echo sending email with both strings..
 				./SendAlert.sh $1 $string2 $string1
 				mv "./pageCache/"$filename "./pageArchive/"
 		else
-				echo "string1('$string1') is equal to string2('$string2')"
+				echo "The string has not changed. ('$string2')"
 				echo No action required.
 				rm pageCache/*
 		fi
