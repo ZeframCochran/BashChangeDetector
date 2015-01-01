@@ -19,11 +19,7 @@ Goal:
 
 Problems:
 ========
-  All of the other names are quite clear and hopefully this is something a beginner
-  could understand and modify in under an hour. 
-  and a skilled scripter can in probably be well versed with a read of config and EntryPoint.
-  
-  Also, I used files for even temporary stuff because bash kept adding spaces around 
+  I used files for temporary stuff because bash kept adding spaces around 
   things otherwise and I got sick of trying to solve it for now.
 
 To configure:
