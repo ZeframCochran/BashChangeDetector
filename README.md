@@ -6,10 +6,11 @@ Checks websites for changes and alerts the user
 #### Dependencies:
 #####   For parsing the html using css paths:
     sudo apt-get  install html-xml-utils 
-#####   For sending alerts (although you can skip these as I have disabled alerts for the moment, I am looking for a better way to send emails)
+#####   For sending alerts (disabled by default)
     sudo apt-get install mailutils
     sudo apt-get install openssl ca-certificates
     sudo apt-get install msmtp
+    Make sure to configure .msmtprc
 
 #### Goal:
   My goal here was to write a bash script that did something non-trivial and was easy 
@@ -17,7 +18,7 @@ Checks websites for changes and alerts the user
 
 #### Problems:
   I used files for temporary stuff because bash kept adding spaces around 
-  things otherwise and I got sick of trying to solve it for now.
+  things.
 
 #### To configure:
   edit the detect.sh
