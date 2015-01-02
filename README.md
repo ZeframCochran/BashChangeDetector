@@ -1,5 +1,4 @@
 # BashChangeDetector
-==================
 
 Checks websites for changes and alerts the user
 
